@@ -24,7 +24,6 @@ Cheap electricity alone does not guarantee cheap hydrogen. In one PEM comparison
 
 A less efficient machine must save enough equipment cost to offset its higher energy use. At GBP 50/MWh and 50% use, increasing consumption from 48 to 53 kWh/kg needs an equipment-price reduction of about 18% from GBP 2,000/kWe to keep hydrogen cost unchanged.
 
-These are calculated relationships under stated assumptions. They are not current equipment offers or demonstrated power-supply contracts.
 
 ## What is included
 
