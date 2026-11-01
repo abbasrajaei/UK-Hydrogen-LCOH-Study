@@ -1,0 +1,14 @@
+[
+  {
+    "file": "uk_hydrogen_costs_2021.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/611b710e8fa8f53dc994e59d/Hydrogen_Production_Costs_2021.pdf",
+    "sha256": "a1bf5255f407c6dd66d0170fa47330c706a51d38fe3d5a0eca3af9b1bd84dc85",
+    "bytes": 747238
+  },
+  {
+    "file": "uk_hydrogen_costs_2021_annex.xlsx",
+    "url": "https://assets.publishing.service.gov.uk/media/611a706ed3bf7f63a7b29216/Hydrogen_Production_Cost_2021_Annex.xlsx",
+    "sha256": "0fc7170686b56784c1f9759f4f21f582bf7e865aec6b762de3bcffee61ccc646",
+    "bytes": 2119898
+  }
+]

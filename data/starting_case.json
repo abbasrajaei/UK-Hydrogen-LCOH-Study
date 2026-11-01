@@ -1,0 +1,78 @@
+{
+  "name": "2025 Central source-reproduction case",
+  "status": "Inputs fixed for source reproduction; real-world price and performance claims remain provisional",
+  "source_scenario": "Central",
+  "source_build_year": 2025,
+  "electricity_price_GBP_per_MWh": 50,
+  "electricity_price_GBP_per_kWh": 0.05,
+  "capacity_factor": 0.5,
+  "discount_rate": 0.08,
+  "plant_life_years": 25,
+  "HHV_kWh_per_kg_source_convention": 39.37007874015748,
+  "normalizing_electrical_capacity_kW": 1,
+  "scale_note": "1 kW is a calculation unit, not a claim about a real 1 kW plant or economies of scale.",
+  "setting_sources": {
+    "electricity_price": "Study choice from the published reference grid; not a site price",
+    "capacity_factor": "Study choice from the published reference grid; not measured operation",
+    "discount_rate": "Study choice from the published reference grid; not a project finance quote",
+    "life_and_technology_values": "NESO source inputs"
+  },
+  "cost_column_rule": "For source reproduction use reported GBP/kW_H2_HHV CAPEX. Preserve reported GBP/kWe; do not overwrite it.",
+  "cash_flow_rule": "Source arithmetic matches an initial investment followed by 25 annual operating periods. Do not add another construction-year factor without a separate case.",
+  "water_and_replacements": "Included in source variable OPEX; do not add twice",
+  "exclusions": [
+    "Additional compression",
+    "Hydrogen storage",
+    "Transport",
+    "Fuel synthesis",
+    "Taxes",
+    "Subsidies"
+  ],
+  "open_items": [
+    "Currency price year",
+    "Real or nominal price basis",
+    "Hydrogen outlet pressure and purity",
+    "Applicable plant scale",
+    "Reason for six source CAPEX conversion mismatches"
+  ],
+  "technology_inputs": [
+    {
+      "source_row_id": 1,
+      "technology": "PEM",
+      "source_scenario": "Central",
+      "build_year": 2025,
+      "installed_CAPEX_reported_GBP_per_kWe": 2010,
+      "installed_CAPEX_reported_GBP_per_kW_H2_HHV": 2728.234207,
+      "efficiency_HHV_fraction": 0.736185054,
+      "electricity_consumption_kWh_per_kg": 53.478508598135,
+      "installed_CAPEX_derived_GBP_per_kWe": 2008.4852470049423,
+      "CAPEX_column_difference_percent": 0.07541768092729217,
+      "annual_fixed_OPEX_fraction": 0.0275,
+      "fixed_OPEX_GBP_per_kW_H2_HHV_year": 75.0264407,
+      "variable_OPEX_GBP_per_kWh_H2_HHV": 0.003114423,
+      "variable_OPEX_GBP_per_kg": 0.12261507874015748,
+      "plant_life_years": 25,
+      "data_type": "published_model_assumption",
+      "currency_price_year": "not_confirmed"
+    },
+    {
+      "source_row_id": 19,
+      "technology": "Alkaline",
+      "source_scenario": "Central",
+      "build_year": 2025,
+      "installed_CAPEX_reported_GBP_per_kWe": 1740,
+      "installed_CAPEX_reported_GBP_per_kW_H2_HHV": 2314.191055,
+      "efficiency_HHV_fraction": 0.746737936,
+      "electricity_consumption_kWh_per_kg": 52.72275164035255,
+      "installed_CAPEX_derived_GBP_per_kWe": 1728.0942519203625,
+      "CAPEX_column_difference_percent": 0.688952472725779,
+      "annual_fixed_OPEX_fraction": 0.0275,
+      "fixed_OPEX_GBP_per_kW_H2_HHV_year": 63.640254,
+      "variable_OPEX_GBP_per_kWh_H2_HHV": 0.002641771,
+      "variable_OPEX_GBP_per_kg": 0.10400673228346456,
+      "plant_life_years": 25,
+      "data_type": "published_model_assumption",
+      "currency_price_year": "not_confirmed"
+    }
+  ]
+}

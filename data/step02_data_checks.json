@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-11-01",
+  "input_rows_checked": 36,
+  "input_key_duplicates": 0,
+  "missing_input_values": 0,
+  "expected_technology_scenario_year_combinations_present": true,
+  "reference_rows_checked": 54,
+  "reference_scope": "2025 Central only; two technologies and selected CF, power-price and discount-rate combinations",
+  "source_reported_total_output_rows": 424080,
+  "all_output_rows_downloaded": false,
+  "download_hashes_checked": 4,
+  "source_CAPEX_conversion_flags": [
+    {
+      "source_row_id": 1,
+      "technology": "PEM",
+      "source_scenario": "Central",
+      "build_year": 2025,
+      "CAPEX_column_difference_percent": 0.07541768092729217
+    },
+    {
+      "source_row_id": 7,
+      "technology": "PEM",
+      "source_scenario": "Low",
+      "build_year": 2025,
+      "CAPEX_column_difference_percent": 0.07541768092729217
+    },
+    {
+      "source_row_id": 13,
+      "technology": "PEM",
+      "source_scenario": "High",
+      "build_year": 2025,
+      "CAPEX_column_difference_percent": 0.07541768092729217
+    },
+    {
+      "source_row_id": 19,
+      "technology": "Alkaline",
+      "source_scenario": "Central",
+      "build_year": 2025,
+      "CAPEX_column_difference_percent": 0.688952472725779
+    },
+    {
+      "source_row_id": 25,
+      "technology": "Alkaline",
+      "source_scenario": "Low",
+      "build_year": 2025,
+      "CAPEX_column_difference_percent": 0.688952472725779
+    },
+    {
+      "source_row_id": 31,
+      "technology": "Alkaline",
+      "source_scenario": "High",
+      "build_year": 2025,
+      "CAPEX_column_difference_percent": 0.688952472725779
+    }
+  ],
+  "maximum_reference_arithmetic_difference_GBP_per_kg": 2.4868995751603507e-14,
+  "interpretation": "Arithmetic agreement only. No independent real-plant validation.",
+  "unresolved": [
+    "Currency price year",
+    "Real or nominal price basis",
+    "Hydrogen outlet pressure and purity",
+    "Applicable plant scale",
+    "Reason for six source CAPEX conversion mismatches"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "question": "How does electricity price change cost if all other inputs stay fixed?",
+  "rows": 62,
+  "price_range_GBP_per_MWh": [
+    0,
+    150
+  ],
+  "price_step_GBP_per_MWh": 5,
+  "fixed_inputs": {
+    "source_build_year": 2025,
+    "source_scenario": "Central",
+    "capacity_factor": 0.5,
+    "discount_rate": 0.08,
+    "plant_life_years": 25
+  },
+  "zero_price_cost_GBP_per_kg": {
+    "PEM": 3.0942838143995117,
+    "Alkaline": 2.624688127003433
+  },
+  "checks": [
+    "62 unique cases",
+    "50 GBP/MWh reproduces starting case",
+    "Price steps match energy-use calculation",
+    "Other cost parts do not change"
+  ],
+  "limits": [
+    "Source price year is not confirmed",
+    "Price and plant use may be linked in real supply options",
+    "No claim of a real zero-price offer",
+    "This does not test lower equipment cost or other plant-use levels",
+    "Independent full-cost validation remains open"
+  ]
+}

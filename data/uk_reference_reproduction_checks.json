@@ -1,0 +1,44 @@
+{
+  "checked_date": "2026-11-01",
+  "case_count": 14,
+  "scope": "PEM and alkaline; seven build years; central curtailed-electricity case only",
+  "price_basis": "Real 2020 GBP",
+  "source_case_settings": {
+    "power_price_GBP_per_kWh": 0,
+    "capacity_factor": 0.25,
+    "finance_rate": 0.1,
+    "plant_life_years": 30,
+    "construction_years": 3
+  },
+  "timing": "One third of equipment spending in each of years 0, 1 and 2. Operation in years 3 to 32.",
+  "units": "1 kW hydrogen-output HHV capacity; 1 MWh hydrogen HHV = 25.4 kg",
+  "maximum_absolute_difference_GBP2020_per_kg": 0.001716885790141287,
+  "maximum_absolute_difference_pence2020_per_kg": 0.1716885790141287,
+  "all_components_inside_assumed_rounding_bounds": true,
+  "rounding_assumptions": {
+    "CAPEX_GBP_per_kW_output_half_step": 0.005,
+    "fixed_OPEX_GBP_per_kW_output_year_half_step": 0.005,
+    "variable_OPEX_GBP_per_kWh_output_half_step": 5e-05
+  },
+  "rounding_meaning": "Bounds reflect stated possible rounding of the supplied input numbers. They are not confidence intervals. They do not prove the cause of every source difference.",
+  "checks": [
+    "Four cost parts sum to the full total",
+    "Direct yearly costs match a separate short formula",
+    "Published totals and components agree within assumed input-rounding bounds",
+    "Source blank cases were not treated as zero"
+  ],
+  "limits": [
+    "The source scenario is simplified; it is not a real free-electricity supply offer",
+    "This checks cost arithmetic and construction timing; not plant performance",
+    "The dated source electricity-price paths for grid and wind cases have not been reproduced",
+    "Electrolysis variable OPEX is a stack-replacement allowance in this source; a separate water bill is not identified",
+    "The source assumes outlet pressure around 3 MPa, or 30 bar; extra compression is outside the cost",
+    "The report was published in 2021 and contains historical projections, not current supplier quotes"
+  ],
+  "report_evidence": {
+    "money_year": "Printed page 27",
+    "hydrogen_units": "Printed page 8, Table 1.1",
+    "stack_cost_and_outlet_pressure": "Printed page 19",
+    "free-electricity_case": "Printed page 23"
+  }
+}

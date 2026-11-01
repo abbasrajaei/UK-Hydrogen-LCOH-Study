@@ -1,0 +1,30 @@
+[
+  {
+    "file": "neso_inputs.json",
+    "source_url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=88cfa584-db79-4573-a0c0-c14086257f8f&limit=100",
+    "retrieved_utc": "2026-11-01T16:21:56.639332+00:00",
+    "bytes": 12649,
+    "sha256": "6e31e1ce348f040426d635450e0e158e87120953f1953cef5ca2fbc0006da27e"
+  },
+  {
+    "file": "neso_package_metadata.json",
+    "source_url": "https://api.neso.energy/api/3/action/package_show?id=levelised-cost-of-green-hydrogen",
+    "retrieved_utc": "2026-11-01T16:21:56.795555+00:00",
+    "bytes": 12275,
+    "sha256": "db946df3a47b83097cfa72ce7e9e86e6b62f774fa7dc13e37a1705ddf98ebc01"
+  },
+  {
+    "file": "neso_output_sample.json",
+    "source_url": "https://api.neso.energy/api/3/action/datastore_search?resource_id=cc2dad0c-393c-4ae0-ae67-a98703169ad4&limit=5",
+    "retrieved_utc": "2026-11-01T16:21:57.085723+00:00",
+    "bytes": 4859,
+    "sha256": "759d05ad36363c4642e87ec49471c9bb68a57124fb4faeb5f67e4c6cdc03500e"
+  },
+  {
+    "file": "neso_reference_cases.json",
+    "source_url": "https://api.neso.energy/api/3/action/datastore_search_sql?sql=SELECT+%2A+FROM+%22cc2dad0c-393c-4ae0-ae67-a98703169ad4%22+WHERE+%22Build+Year%22+%3D+%272025%27+AND+%22Scenario%22+%3D+%27Central%27+AND+%22Units%22+%3D+%27%C2%A3%2Fkg+H2%27+AND+%22Capacity+Factor%22+IN+%280.05%2C0.50%2C0.95%29+AND+%22Electricity+Price%22+IN+%280%2C50%2C150%29+AND+%22Discount+Factor%22+IN+%280.06%2C0.08%2C0.15%29+ORDER+BY+%22Tech%22%2C+%22Capacity+Factor%22%2C+%22Electricity+Price%22%2C+%22Discount+Factor%22",
+    "retrieved_utc": "2026-11-01T16:21:58.579803+00:00",
+    "bytes": 32189,
+    "sha256": "0671621e6e9b045bcbdd3be2c0d51b1cf4176c9868c23e7e6f9539e1d44164fe"
+  }
+]

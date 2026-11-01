@@ -1,0 +1,58 @@
+{
+  "audit_date": "2026-11-01",
+  "capture_method": "Selected values manually transcribed from public API responses inspected with the web tool; no full dataset download",
+  "input_api": "https://api.neso.energy/api/3/action/datastore_search?resource_id=88cfa584-db79-4573-a0c0-c14086257f8f&limit=5",
+  "output_api": "https://api.neso.energy/api/3/action/datastore_search?resource_id=cc2dad0c-393c-4ae0-ae67-a98703169ad4&limit=5",
+  "input_records_reported_total": 36,
+  "output_records_reported_total": 424080,
+  "inputs_first_five_inspected_but_one_retained_here": [
+    {
+      "_id": 1,
+      "Tech": "PEM",
+      "Scenario": "Central",
+      "Build Year": 2025,
+      "Capex_GBP_per_kWe": 2010,
+      "Efficiency": 0.736185054,
+      "Capex_GBP_per_kW_H2_HHV": 2728.234207,
+      "Fixed_Opex_Percent_of_Capex": 0.0275,
+      "Fixed Opex": 75.0264407,
+      "Variable Opex": 0.003114423,
+      "Plant Lifetime": 25
+    }
+  ],
+  "outputs_first_five_inspected_but_two_retained_here": [
+    {
+      "_id": 1,
+      "Tech": "Alkaline",
+      "Scenario": "Central",
+      "Build Year": "2025",
+      "Capacity Factor": 0.05,
+      "Electricity Price": 0.0,
+      "Discount Factor": 0.06,
+      "Units": "GBP/MWh H2 HHV",
+      "LCOH": 561.2532448558221,
+      "LCOH Capex": 413.3140902941784,
+      "LCOH Electricity Cost": 0.0,
+      "LCOH Fixed Opex": 145.2973835616438,
+      "LCOH Variable Opex": 2.6417710000000003
+    },
+    {
+      "_id": 2,
+      "Tech": "Alkaline",
+      "Scenario": "Central",
+      "Build Year": "2025",
+      "Capacity Factor": 0.05,
+      "Electricity Price": 0.0,
+      "Discount Factor": 0.06,
+      "Units": "GBP/kg H2",
+      "LCOH": 22.096584443142604,
+      "LCOH Capex": 16.27220827929836,
+      "LCOH Electricity Cost": 0.0,
+      "LCOH Fixed Opex": 5.720369431560781,
+      "LCOH Variable Opex": 0.1040067322834645
+    }
+  ],
+  "transformation_note": "Currency symbols in output unit strings normalized to GBP; values unchanged.",
+  "attribution": "Supported by National Energy SO Open Data",
+  "licence": "https://www.neso.energy/data-portal/neso-open-licence"
+}

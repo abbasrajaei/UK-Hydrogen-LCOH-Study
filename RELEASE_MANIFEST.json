@@ -1,0 +1,447 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 81,
+    "sha256": "f2c7e1ac40a5bc9671e7c4a010f2809ad387ab28f9aa8f7ba79502d33af8cd6d"
+  },
+  {
+    "file": "data/baseline_costs.csv",
+    "bytes": 1140,
+    "sha256": "c062439c026fb8062416ada4f6f58696c785414eba0720965062c0cb9d13a9c5"
+  },
+  {
+    "file": "data/baseline_costs.json",
+    "bytes": 1999,
+    "sha256": "a0c724c3ff24ba02b0f15b1284919635cfb8002505345c386101bfd12b138783"
+  },
+  {
+    "file": "data/baseline_yearly_costs.csv",
+    "bytes": 7856,
+    "sha256": "7c995f529477023ebef303ca9de01b1a2ca303befab8443c5d24d15c79fde2cd"
+  },
+  {
+    "file": "data/design_expert_holdout_checks.csv",
+    "bytes": 23157,
+    "sha256": "a22dd266bc39f4e66cdb004c0e95564da121365191fd8e59280aca9a4d5ffd05"
+  },
+  {
+    "file": "data/design_expert_validation.json",
+    "bytes": 1055,
+    "sha256": "1cfafd8cdb35983dfa6ed961b20d1598f638ec855261051529879286847d7272"
+  },
+  {
+    "file": "data/efficiency_value_limits.csv",
+    "bytes": 7390,
+    "sha256": "f0d364cfd865038dcabbc87b218aef877471877eecdb24dfdb90f8754b5ce34b"
+  },
+  {
+    "file": "data/efficiency_value_limits.json",
+    "bytes": 26176,
+    "sha256": "a774f0935ee8bfdfba1da8ea04d53121b8dba5347360c5347bf96b4b357d0602"
+  },
+  {
+    "file": "data/efficiency_value_study_checks.json",
+    "bytes": 1909,
+    "sha256": "dd1040fb11f51793549caf9c2e65c38321ca510eff90e0c477bf7b1da9002202"
+  },
+  {
+    "file": "data/electricity_price_study.csv",
+    "bytes": 14944,
+    "sha256": "60949d20d82594ca47b6feda607dd9ecf071a963485c495309419c43c08529d3"
+  },
+  {
+    "file": "data/electricity_price_study.json",
+    "bytes": 42909,
+    "sha256": "a9761270caba54587666694a7e10f41a4077810263460f8481f99e3be7cfaccd"
+  },
+  {
+    "file": "data/electricity_price_study_checks.json",
+    "bytes": 957,
+    "sha256": "8d1e4c57fc615ab236fd2488b1905a2c69d1f2692feed9a3e387f0e20c5cfe12"
+  },
+  {
+    "file": "data/equipment_efficiency_grid.csv",
+    "bytes": 4314448,
+    "sha256": "17de4496ade89321d489d88533146c9387f7fb8754db86aed3608c363e47c310"
+  },
+  {
+    "file": "data/equipment_efficiency_study_checks.json",
+    "bytes": 2104,
+    "sha256": "e9871f8b2f594bb0df35f471655a52e7ac9735bfac436add0c4daf8e269c11bc"
+  },
+  {
+    "file": "data/equipment_examples_by_power_price.csv",
+    "bytes": 23772,
+    "sha256": "614759fdde4d3ff18df6a6b9005ce447e9b130f662b447181705fd7dcc5cf146"
+  },
+  {
+    "file": "data/equipment_examples_by_power_price.json",
+    "bytes": 59570,
+    "sha256": "c05cdd13bc1817e5d43eb9975228d2c8452d4903540ca1ff14a7b07dbbbbd0e4"
+  },
+  {
+    "file": "data/excel_chart_checks.json",
+    "bytes": 459,
+    "sha256": "680a15a421491fb5cba05b4b95a050937be6ead75c12b13a84cbf065dbffa330"
+  },
+  {
+    "file": "data/neso_design_expert_three_factors.csv",
+    "bytes": 7669,
+    "sha256": "9d34cbd4d0c8b892db45ff4cf980aebb757dc66e25d2d6cd1fcd2a843cb3ab43"
+  },
+  {
+    "file": "data/neso_driver_screen.csv",
+    "bytes": 7447,
+    "sha256": "3e15fc5b56903b99e8eb1fad0ecb2a6c7c263682565a553971be997595d8cca1"
+  },
+  {
+    "file": "data/neso_driver_screen_checks.json",
+    "bytes": 1314,
+    "sha256": "cb4c0e08fb93194af15e3c0ef34c3f569fec3f23dce0c123d49117d3a50feb79"
+  },
+  {
+    "file": "data/neso_efficiency_loss_compensation.csv",
+    "bytes": 5520,
+    "sha256": "2f0c1958680beee0a57eeab644d8d0c95c4044b539293326bfb619526f431596"
+  },
+  {
+    "file": "data/neso_final_analysis_checks.json",
+    "bytes": 1292,
+    "sha256": "0a570e59a55fc656ae7a26d20ed7b847d820727ce87e523b376ac555bdb96d67"
+  },
+  {
+    "file": "data/neso_inputs_checked.csv",
+    "bytes": 7862,
+    "sha256": "d334fc9ddd694a48f1f83efca312f8e3a07cf408a1979552388381508e6f2b1d"
+  },
+  {
+    "file": "data/neso_inspected_sample.json",
+    "bytes": 2158,
+    "sha256": "4730fa325c72e09df4428a60d4b6b972326913aeea1473c017d534080d93cc52"
+  },
+  {
+    "file": "data/neso_joint_alkaline_design_expert.csv",
+    "bytes": 89701,
+    "sha256": "bc7c0064e6141f31c0892be6f5c392b9c0efecc04631637d7f2d86119a4e3124"
+  },
+  {
+    "file": "data/neso_joint_pem_design_expert.csv",
+    "bytes": 86134,
+    "sha256": "1024a9c5f2d3eefad60bdb0d795ea74677030e0dd9c9cfbfe8cc9f0b2557f7b1"
+  },
+  {
+    "file": "data/neso_joint_price_use.csv",
+    "bytes": 175588,
+    "sha256": "ba4b991bfaf00cf0550ca67f419ca3e873fc1814a84b20e57b98094cc00f1279"
+  },
+  {
+    "file": "data/neso_joint_price_use.json",
+    "bytes": 638759,
+    "sha256": "2583d2e560b8322dd9491da2072ca608d65d66637cf1d0772b1c197ca49f9d5f"
+  },
+  {
+    "file": "data/neso_joint_study_checks.json",
+    "bytes": 1320,
+    "sha256": "e70d6bef8e19f959f5dcb51d0db1d5d691c8aa367e3c5c24733b67b2dd4c8c4a"
+  },
+  {
+    "file": "data/NESO_price_and_plant_use_Design_Expert.xlsx",
+    "bytes": 79069,
+    "sha256": "bcedb3caf8c8a67656f1c146eadc3ec275be6d26ce91ec61adbda42dce4881c2"
+  },
+  {
+    "file": "data/neso_reference_cases_checked.csv",
+    "bytes": 7655,
+    "sha256": "632f61353f7bf1fb2f551316cd32e4ce78d547ab42aa89f4cef9269f7b0cbd88"
+  },
+  {
+    "file": "data/neso_surface_holdout_checks.csv",
+    "bytes": 22423,
+    "sha256": "b6a04738d868e5514f361fa35134439bfcd701a7dc7c5f2b1598e703ad9dcb95"
+  },
+  {
+    "file": "data/plant_use_study.csv",
+    "bytes": 15111,
+    "sha256": "af131331e10d48c8a204fe1140c110cc8ef5f73226e962b3f8701841107f5c7b"
+  },
+  {
+    "file": "data/plant_use_study.json",
+    "bytes": 42224,
+    "sha256": "af5e4ece6a1b9be7820060552784f8bacb871fc8738b058a2f0b221737ac32ac"
+  },
+  {
+    "file": "data/plant_use_study_checks.json",
+    "bytes": 1075,
+    "sha256": "8de75c4e79ee26a2106c6b369127287dc997eba45ca8f8bbe3e66f5877b90e6f"
+  },
+  {
+    "file": "data/raw/download_manifest.json",
+    "bytes": 1738,
+    "sha256": "28f07a2e8692f3ec03d82d251a2abb25f682bec7992c7a1c2f6da095339af761"
+  },
+  {
+    "file": "data/raw/neso_inputs.json",
+    "bytes": 12649,
+    "sha256": "6e31e1ce348f040426d635450e0e158e87120953f1953cef5ca2fbc0006da27e"
+  },
+  {
+    "file": "data/raw/neso_output_sample.json",
+    "bytes": 4859,
+    "sha256": "759d05ad36363c4642e87ec49471c9bb68a57124fb4faeb5f67e4c6cdc03500e"
+  },
+  {
+    "file": "data/raw/neso_package_metadata.json",
+    "bytes": 12275,
+    "sha256": "db946df3a47b83097cfa72ce7e9e86e6b62f774fa7dc13e37a1705ddf98ebc01"
+  },
+  {
+    "file": "data/raw/neso_reference_cases.json",
+    "bytes": 32189,
+    "sha256": "0671621e6e9b045bcbdd3be2c0d51b1cf4176c9868c23e7e6f9539e1d44164fe"
+  },
+  {
+    "file": "data/raw/uk_source_downloads.json",
+    "bytes": 577,
+    "sha256": "dc6d72ef241052f6969a946c4eb55e899231fb648cf0e7618113e22b901def67"
+  },
+  {
+    "file": "data/release_checks.json",
+    "bytes": 1705,
+    "sha256": "013ec579ff29f332cf75e900c10f5e49355ce462589751f5039ddcc0ff064cb5"
+  },
+  {
+    "file": "data/Report_Charts_Excel.xlsx",
+    "bytes": 17962,
+    "sha256": "bf80bba87ac794424d973ef0aa7c4ed3b8e2bb06a48194bd63b20b51fb5846f0"
+  },
+  {
+    "file": "data/source_register.json",
+    "bytes": 5752,
+    "sha256": "3ab5b6ca1f190459972e7fbb6d71d819e3a2247dfa5b52c15ae171ebb81ccc62"
+  },
+  {
+    "file": "data/starting_case.json",
+    "bytes": 3450,
+    "sha256": "286d88891bb9a2ac63854448d018d4daf6b5758aa8d1397ac84478163e35f386"
+  },
+  {
+    "file": "data/step02_data_checks.json",
+    "bytes": 2074,
+    "sha256": "a0d74b2d9b7b1adadf245d2b6fec39702c0ddd5e070c5afde24abbad55c7ab3e"
+  },
+  {
+    "file": "data/uk_reference_inputs_2020gbp.csv",
+    "bytes": 4806,
+    "sha256": "912dd394651fd799dfdfb65e01bbae8a7d12c9f310df0df762bdb35784040636"
+  },
+  {
+    "file": "data/uk_reference_outputs_2020gbp.csv",
+    "bytes": 9497,
+    "sha256": "a16e27a5639b8982eb6824325381a02638a4f1b181657b8e2a4391ff85c61c57"
+  },
+  {
+    "file": "data/uk_reference_reproduction.csv",
+    "bytes": 5693,
+    "sha256": "665c21f46b2b400ab8c1c4c6369eadde243293c32754ec6641d37a19305fc8e4"
+  },
+  {
+    "file": "data/uk_reference_reproduction.json",
+    "bytes": 18854,
+    "sha256": "1b9fd7a8dab8d2a066d5a124f9e3a21e05eb17f7a8083b76d3f55c3ba512134e"
+  },
+  {
+    "file": "data/uk_reference_reproduction_checks.json",
+    "bytes": 2253,
+    "sha256": "dc44daf86db60d55a254616de5c8b997002ccb41c25afc80e8495ab7e4200d85"
+  },
+  {
+    "file": "data/uk_reference_yearly_flows.csv",
+    "bytes": 35403,
+    "sha256": "3f92a355488f9a211e3359b9e4d486c0a0c1f6c1977fac82b05c1c52f27ac5b1"
+  },
+  {
+    "file": "design_expert/NESO_three_factor_cost_model.dxpx",
+    "bytes": 51591,
+    "sha256": "b7281627da9d383999e60a44ee6c37ac33108f778d56ae3bdfdc953685eebf0c"
+  },
+  {
+    "file": "design_expert/NESO_three_factor_surface.xlsx",
+    "bytes": 8847,
+    "sha256": "cecc7dbebfb98d6f5eb8ed96cb887899dac98d2628148fc986db79ddf8b8a5c6"
+  },
+  {
+    "file": "design_expert/REPRODUCE.md",
+    "bytes": 4879,
+    "sha256": "360658a54e5489b091895d7458317188dfefc53052bb07fb11603e682859224c"
+  },
+  {
+    "file": "design_expert/three_factor_data.tsv",
+    "bytes": 7666,
+    "sha256": "6970911f9f5726b25d8f9479774327046415ecf347fb934e185fb7192d7c72d4"
+  },
+  {
+    "file": "docs/10_check_the_government_case.md",
+    "bytes": 468,
+    "sha256": "a8a25a01826241043c565a07bc368284cf8e8f28865bcb0c2b1c5c3c073255aa"
+  },
+  {
+    "file": "docs/FINAL_REPORT.md",
+    "bytes": 17305,
+    "sha256": "5375133e3191ea8e1870adbc652110e01567330fd51f05dac308b4909f33a7f9"
+  },
+  {
+    "file": "docs/neso_01_cost_driver_screen.md",
+    "bytes": 221,
+    "sha256": "ca0be6ef113a66444767810b5aa81d5fb1dae7baee300038b4f99f79418fdf06"
+  },
+  {
+    "file": "docs/neso_02_electricity_price_and_yearly_use.md",
+    "bytes": 202,
+    "sha256": "52c6f69a21700606129da9507209493f97338289ca330aa487547bc66fea33f4"
+  },
+  {
+    "file": "docs/REPORT_MODELS.md",
+    "bytes": 1928,
+    "sha256": "6a4d6b87d6cb2b6e8b03592f09a5df3d7c5d929dab021ae3bd1b021a82c69e0b"
+  },
+  {
+    "file": "docs/SOURCES_AND_RELEASE.md",
+    "bytes": 2223,
+    "sha256": "f06cf7ec8daf5e97cc54ff6a0b5162dc6e15c168879294dcb7c678668f455f85"
+  },
+  {
+    "file": "figures/dx_contour_capex_energy_white.png",
+    "bytes": 117818,
+    "sha256": "3c9105f5281f51b25e74e08084e9b00b31708e51a13dc9acf94af9ec009de959"
+  },
+  {
+    "file": "figures/dx_interaction_energy_price.png",
+    "bytes": 39096,
+    "sha256": "f12e24af979d7ebce85930d04d285be3027aeb1ab5a123fd72a1250c630d8667"
+  },
+  {
+    "file": "figures/dx_surface_capex_energy.png",
+    "bytes": 204048,
+    "sha256": "a657b693a8408bfc15a60f326fb76e5023f1cf84c071c69c89f976ac4f07c194"
+  },
+  {
+    "file": "figures/excel_baseline.png",
+    "bytes": 68110,
+    "sha256": "31023ad2333c6a47001f2e9c120474762d998311c7f9789dcef07bc43e735d79"
+  },
+  {
+    "file": "figures/excel_design_comparison.png",
+    "bytes": 312048,
+    "sha256": "ceb8ef6d48f03f2a8d203e4fbe8baedb69f54ebc5e1ca9bb8a7aa2477d1fcca1"
+  },
+  {
+    "file": "figures/excel_drivers.png",
+    "bytes": 80155,
+    "sha256": "9898f9684612b92d884b5e9e381e6cbb1e0a2babbeb3585b4d0fc4f2c7d11c05"
+  },
+  {
+    "file": "figures/excel_price_use.png",
+    "bytes": 293137,
+    "sha256": "f54b4c0d5a5f8644dd3b85e8a42d3d73b604390ae06b3ff61504af7eeeda08e4"
+  },
+  {
+    "file": "README.md",
+    "bytes": 7197,
+    "sha256": "156f132f55a520dc7a7db78af071175de9e6ec121b189d21d623fca46a2f65ec"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 125,
+    "sha256": "8b080f6e70d0cf65af3957f3129d4e6da65a5b9d771695d77ce683ff3d85eed6"
+  },
+  {
+    "file": "scripts/check_uk_reference.py",
+    "bytes": 9676,
+    "sha256": "c39f9e72cbfff78d9c37bd3f009ba5fd964086a98541ea40d99013121225ca96"
+  },
+  {
+    "file": "scripts/cost_model.py",
+    "bytes": 4824,
+    "sha256": "a90dbb994c9c96298babcc8c100066ada48f1c2f7964638cda6f5d2a7a579a7e"
+  },
+  {
+    "file": "scripts/extract_uk_reference.py",
+    "bytes": 9073,
+    "sha256": "be8f6adba7f70ca3cecc37d2d2937d5c5520f58fb5d0d344ba2638753a993098"
+  },
+  {
+    "file": "scripts/fetch_sources.py",
+    "bytes": 2074,
+    "sha256": "00783b45b4e7b27884fed3074ec511b5220b6c656cbe1081e9e3e706f68bbcff"
+  },
+  {
+    "file": "scripts/fetch_uk_reference.py",
+    "bytes": 1081,
+    "sha256": "1e72825b87ed22216e4109212605b6516dd3548f15ef3abe33717d8b7c70dd36"
+  },
+  {
+    "file": "scripts/finish_neso_analysis.py",
+    "bytes": 5306,
+    "sha256": "af28894837652ff9e3aa493e97903c11e9b05a11dba42b627862962200d8713d"
+  },
+  {
+    "file": "scripts/prepare_step02.py",
+    "bytes": 9480,
+    "sha256": "846996cd445df20ee8e82e6bed0b9b4a43b1c7e4250a158487f9d65fb1041dcd"
+  },
+  {
+    "file": "scripts/run_baseline.py",
+    "bytes": 2744,
+    "sha256": "215babc068df97d26c8fb7b52eb1eaed9c0deb64ed0235a908f51e80a307aecd"
+  },
+  {
+    "file": "scripts/run_efficiency_value_study.py",
+    "bytes": 6848,
+    "sha256": "ca08914f113a05299d09d8a4266721042fa72dd48fff1f7d442fcff0f5e4251e"
+  },
+  {
+    "file": "scripts/run_electricity_study.py",
+    "bytes": 4265,
+    "sha256": "2e146292392bd442467520c52e9307e71ef31a62b9f366a6fd2b713d4e14ec5e"
+  },
+  {
+    "file": "scripts/run_equipment_efficiency_study.py",
+    "bytes": 7732,
+    "sha256": "d01993d0466a0f16d43601a645c7be58907f078e472db0dab4c97b04f7c769cb"
+  },
+  {
+    "file": "scripts/run_neso_driver_screen.py",
+    "bytes": 4534,
+    "sha256": "01e1b24c84d053408447adea0827191fc1c9ea7ea434b433c1f992b5479c225b"
+  },
+  {
+    "file": "scripts/run_neso_joint_study.py",
+    "bytes": 5352,
+    "sha256": "c33972b253bde5c7cc6d56dc186738c800bacea9b210fe9c7ef581b99f62d00d"
+  },
+  {
+    "file": "scripts/run_plant_use_study.py",
+    "bytes": 5176,
+    "sha256": "0b335639c2d0c4ff823cfa23f20d8df4a10bb10b530a7ea9c1a71a69b34e5267"
+  },
+  {
+    "file": "scripts/run_project.py",
+    "bytes": 765,
+    "sha256": "76ccb085ccdb9318434a33e3d27c3ac6e0f4e4c8df6ff6a2a2f7454dbf1b2100"
+  },
+  {
+    "file": "scripts/test_cost_model.py",
+    "bytes": 3477,
+    "sha256": "6e8c14d5e6dacc46a39c2040f248702ae9ebccfb1ad5737656c7d171f84e23b1"
+  },
+  {
+    "file": "scripts/validate_design_expert.py",
+    "bytes": 3634,
+    "sha256": "92a9396cb1cd1743d759282127c7d778b6c9bbf97d888a7cb9d1151b2fdc1cc8"
+  },
+  {
+    "file": "scripts/verify_release.py",
+    "bytes": 6384,
+    "sha256": "17d97ffe16b8964c697f6bb56ac83a3523abe5d5a49e3a7c5f8e4a04c95a8efb"
+  }
+]

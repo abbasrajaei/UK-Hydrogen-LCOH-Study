@@ -1,0 +1,115 @@
+{
+  "project": "Hydrogen production cost: NESO-based techno-economic study",
+  "main_study_source": "NESO",
+  "main_study_status": "Complete for the declared NESO scenario-study scope",
+  "money_scale": "NESO source-money scale",
+  "sources": [
+    {
+      "id": "NESO_INPUTS",
+      "url": "https://www.neso.energy/data-portal/levelised-cost-green-hydrogen/capex_and_opex_input_assumptions_for_pem_and_alkaline_electrolyser_systems",
+      "api": "https://api.neso.energy/api/3/action/datastore_search?resource_id=88cfa584-db79-4573-a0c0-c14086257f8f&limit=5",
+      "evidence_type": "Published scenario assumptions; aggregated public and third-party inputs",
+      "intended_role": "Main study input assumptions",
+      "coverage_verified": "All 36 input rows downloaded and checked; raw JSON and download hashes saved",
+      "gaps": [
+        "Currency price year and real/nominal basis unconfirmed",
+        "Outlet conditions and applicable plant scale unconfirmed",
+        "Six 2025 CAPEX conversion mismatches; reason not established"
+      ],
+      "avoid_double_counting": "Variable OPEX includes water and stack replacement",
+      "licence": "https://www.neso.energy/data-portal/neso-open-licence"
+    },
+    {
+      "id": "NESO_OUTPUTS",
+      "url": "https://www.neso.energy/data-portal/levelised-cost-green-hydrogen/levelised_cost_of_green_hydrogen_modelling_2025_to_2050",
+      "api": "https://api.neso.energy/api/3/action/datastore_search?resource_id=cc2dad0c-393c-4ae0-ae67-a98703169ad4&limit=5",
+      "evidence_type": "Model outputs; not observations or forecasts",
+      "intended_role": "Reproduction benchmark, not independent confirmation of source assumptions",
+      "coverage_verified": "54 selected 2025 Central cases downloaded and checked; first-five sample also saved; full output dataset not downloaded",
+      "available_dimensions": {
+        "discount_rate": [
+          0.06,
+          0.15
+        ],
+        "capacity_factor": [
+          0.05,
+          0.95
+        ],
+        "electricity_price_GBP_per_MWh": [
+          0,
+          150
+        ],
+        "plant_years": 25,
+        "construction_years": 1
+      },
+      "gaps": [
+        "Full output dataset not audited",
+        "Currency price year and real/nominal basis unconfirmed"
+      ],
+      "reproduction_check": "Annuity arithmetic agrees within 1e-8 GBP/kg in all 54 selected cases using source output-capacity CAPEX"
+    },
+    {
+      "id": "UK_BEIS_2021",
+      "url": "https://www.gov.uk/government/publications/hydrogen-production-costs-2021",
+      "price_year": 2020,
+      "currency": "GBP",
+      "inflation_basis": "real",
+      "coverage_verified": "Report and annex acquired; 14 input and 54 central output cases extracted and checked; blank source cases retained as unavailable",
+      "status": "14 central curtailed-electricity cases rebuilt and checked within stated input-rounding bounds"
+    }
+  ],
+  "baseline": {
+    "case": "2025 Central",
+    "power_GBP_MWh": 50,
+    "yearly_use": 0.5,
+    "rate": 0.08,
+    "life_years": 25
+  },
+  "cost_boundary": "Installed equipment, electricity, fixed running costs, source water and replacement allowance",
+  "assumptions": "Independent electricity price and use; constant energy consumption; hypothetical crossed equipment ranges",
+  "government_check": {
+    "cases": 14,
+    "maximum_gap_pence_kg": 0.1716885790141287,
+    "money_basis": "Real 2020 GBP",
+    "scope": "Central curtailed-electricity cases"
+  },
+  "chart_policy": "Four Excel charts and three Design-Expert charts",
+  "report_models": "docs/REPORT_MODELS.md",
+  "final_report": "docs/FINAL_REPORT.md",
+  "release_checks": "data/release_checks.json",
+  "open_studies": [],
+  "stage": "NESO portfolio scenario study completed; native Design-Expert charts and final report supplied",
+  "core_model_implemented": true,
+  "independent_reference_check_complete": false,
+  "model_limits": [
+    "Source price year is open",
+    "No explicit equipment ageing or hourly operation",
+    "Source running-cost allowance covers water and replacements",
+    "Results reproduce a source model; they are not measured site costs"
+  ],
+  "independent_reference_review_complete": true,
+  "independent_reference_check_status": "Separate sources reviewed; exact full-cost validation remains open",
+  "completed_studies": [
+    "Starting-case cost breakdown",
+    "Electricity price only; 62 cases",
+    "Yearly plant use only; 38 cases",
+    "Equipment cost and efficiency; 11163 grid cases and 62 paired cases",
+    "Efficiency improvement: equipment price limit and extra running-cost room"
+  ],
+  "external_review_file": "external_reference_review.json",
+  "next_priority": "Optional extension: site-specific hourly power supply and updated dated equipment quotes",
+  "main_study_priority": "Optional extension: site-specific hourly power supply and updated dated equipment quotes",
+  "dated_reference_model_reproduced": false,
+  "dated_reference_reproduction_status": "14 central curtailed-electricity cases reproduced; grid and wind price paths not yet reproduced",
+  "independent_cost_arithmetic_check": {
+    "source": "UK government 2021 annex",
+    "cases": 14,
+    "scope": "Free-electricity cases only; within stated rounding bounds"
+  },
+  "earlier_scope_open_items": [
+    "Defined money-year threshold",
+    "Joint power-price and plant-use cases with supply evidence"
+  ],
+  "math_validation_scope": "54 selected NESO cases; 14 separate government free-power cases within stated bounds; deterministic scenario checks",
+  "native_design_expert_project": "design_expert/NESO_three_factor_cost_model.dxpx"
+}

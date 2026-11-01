@@ -1,0 +1,45 @@
+{
+  "design_expert_sample_rows": 125,
+  "efficiency_loss_rows": 54,
+  "model_form": "LCOH=e*p/1000+e*K*(CRF+0.0275)/(8760*u)+v",
+  "bounds_CAPEX_GBP_kWe": [
+    669.9999999695586,
+    2008.4852470049423
+  ],
+  "bounds_energy_kWh_kg": [
+    47.47650586653599,
+    53.478508598135
+  ],
+  "bounds_power_GBP_MWh": [
+    0,
+    150
+  ],
+  "source_range_meaning": "Bounds span 36 NESO assumptions including 2025-2050 projections; no current market range claim",
+  "fixed_rules": {
+    "use_fraction": 0.5,
+    "finance_rate": 0.08,
+    "life_years": 25,
+    "fixed_OPEX_fraction": 0.0275,
+    "variable_OPEX_GBP_kg": 0.12261507874015748
+  },
+  "analytical_terms": [
+    "Intercept",
+    "CAPEX",
+    "Electricity consumption",
+    "Power price",
+    "CAPEX x electricity consumption",
+    "Power price x electricity consumption"
+  ],
+  "coded_coefficients": [
+    5.77872101841342,
+    0.9346175990438353,
+    0.33626822283317426,
+    3.7858130424251644,
+    0.05556511890178989,
+    0.2250751024349627
+  ],
+  "independent_holdout_points": 200,
+  "maximum_holdout_error_GBP_kg": 5.329070518200751e-15,
+  "seed": 20261101,
+  "inference": "Deterministic cost model; regression verifies representation, not real-world accuracy or statistical significance"
+}

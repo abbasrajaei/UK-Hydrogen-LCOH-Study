@@ -1,0 +1,33 @@
+{
+  "question": "How does yearly plant use change cost when all other inputs stay fixed?",
+  "rows": 38,
+  "plant_use_percent_range": [
+    5,
+    95
+  ],
+  "step_percentage_points": 5,
+  "fixed_settings": {
+    "electricity_price_GBP_per_MWh": 50,
+    "discount_rate": 0.08,
+    "plant_life_years": 25,
+    "source_build_year": 2025,
+    "source_scenario": "Central"
+  },
+  "source_cases_matched": 6,
+  "checks": [
+    "38 unique cases",
+    "50% use matches the starting case",
+    "Year-by-year costs match the short formula",
+    "Halving use doubles equipment and fixed cost per kg",
+    "Electricity cost per kg stays fixed",
+    "All six matching selected source cases agree"
+  ],
+  "limits": [
+    "Source price year is open",
+    "Price is held fixed; real power offers may link price and available hours",
+    "No hourly supply or demand model",
+    "No explicit ageing or start-stop costs",
+    "Water and replacements use the source variable-cost allowance",
+    "This test does not identify the best real operating schedule"
+  ]
+}

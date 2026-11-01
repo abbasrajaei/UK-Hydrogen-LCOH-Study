@@ -1,0 +1,31 @@
+{
+  "cases": 1178,
+  "cases_per_technology": 589,
+  "matched_NESO_reference_cases": 18,
+  "price_range_GBP_MWh": [
+    0,
+    150
+  ],
+  "price_step": 5,
+  "use_percent_range": [
+    5,
+    95
+  ],
+  "use_step_percentage_points": 5,
+  "source_basis": "NESO 2025 Central; source GBP, money year unconfirmed",
+  "tests": [
+    "All 1178 points match independent yearly discounted flows",
+    "18 matching saved NESO published totals agree",
+    "All points are unique; cost increases with price and falls with use",
+    "The price effect per kg is independent of use under this model"
+  ],
+  "interpretation": "Joint trade-off study; no site power-price/availability relationship has been established",
+  "mathematics": "LCOH = e*p + e*(K*CRF+F)/(8760*u) + V; p in GBP/kWh, u as a fraction",
+  "design_expert_status": "Input tables prepared; no Design-Expert project or fitted chart created in this step",
+  "limits": [
+    "No empirical noise or replicated experiments; do not infer statistical significance",
+    "CF dependence is reciprocal; a quadratic approximation must be checked against the model",
+    "Technology cost differences do not demonstrate a universal real equipment ranking",
+    "No hourly supply, degradation, added compression, storage, transport, tax or subsidy"
+  ]
+}

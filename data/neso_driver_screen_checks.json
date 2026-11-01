@@ -1,0 +1,28 @@
+{
+  "cases": 28,
+  "source": "Saved NESO starting_case.json; 2025 Central PEM and alkaline",
+  "baseline": {
+    "power_price_GBP_per_MWh": 50,
+    "capacity_factor": 0.5,
+    "finance_rate": 0.08,
+    "plant_life_years": 25
+  },
+  "perturbation": "Each input separately increased and decreased by 10% relative to its baseline",
+  "checks": [
+    "All 28 results match independent discounted yearly flows",
+    "All cost changes follow the expected direction"
+  ],
+  "coupling_rules": [
+    "Equipment-only perturbation holds annual fixed OPEX constant to isolate its direct effect",
+    "Electricity-use perturbation holds investment and fixed cost per electrical input kW constant",
+    "Water and stack replacement allowance per kg stays fixed in all other perturbations",
+    "Joint CAPEX/fixed-OPEX and efficiency/CAPEX changes require separate interaction studies"
+  ],
+  "limits": [
+    "Equal relative changes do not represent equal engineering difficulty or uncertainty",
+    "Ranking is local to this baseline; it can change elsewhere",
+    "Power price and available operating hours may be linked in a real supply",
+    "Source money year is unconfirmed; no dated GBP1/kg or current-price claim",
+    "No new evidence for hourly operation, plant ageing or scale effects"
+  ]
+}

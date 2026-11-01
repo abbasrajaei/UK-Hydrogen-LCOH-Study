@@ -1,0 +1,57 @@
+{
+  "grid_rows": 11163,
+  "paired_example_rows": 62,
+  "cost_range_GBP_per_kWe": [
+    669.9999999695586,
+    2008.4852470049423
+  ],
+  "electricity_range_kWh_per_kg": [
+    47.47650586653599,
+    53.478508598135
+  ],
+  "range_rule": "Use the minimum and maximum across source scenarios from 2025 to 2050; not a current market range",
+  "grid_sampling_rule": "61 equally spaced model points per axis; assumed sampling, not recovered observations",
+  "grid_power_prices_GBP_per_MWh": [
+    10,
+    50,
+    150
+  ],
+  "fixed_settings": {
+    "capacity_factor": 0.5,
+    "discount_rate": 0.08,
+    "plant_life_years": 25,
+    "fixed_running_cost_fraction": 0.0275,
+    "other_running_cost_GBP_per_kg": 0.12261507874015748
+  },
+  "examples": [
+    {
+      "name": "A: higher cost, less electricity",
+      "installed_cost_GBP_per_kWe": 2000.0,
+      "electricity_kWh_per_kg": 48.0
+    },
+    {
+      "name": "B: lower cost, more electricity",
+      "installed_cost_GBP_per_kWe": 1500.0,
+      "electricity_kWh_per_kg": 53.0
+    }
+  ],
+  "example_crossover_electricity_price_GBP_per_MWh": 91.2990801076472,
+  "crossover_cost_GBP_per_kg": 7.160944163402415,
+  "checks": [
+    "Grid has 11163 unique points",
+    "Both examples are inside source ranges",
+    "Year-by-year results match the short formula for all 62 paired cases",
+    "At the crossover price the examples have equal cost",
+    "Greater efficiency helps at the same equipment cost",
+    "Lower equipment cost helps at the same efficiency"
+  ],
+  "limits": [
+    "No evidence that all combinations can be built or bought",
+    "Ranges include future source scenarios; they are not current product data",
+    "The source does not establish a physical cost-efficiency trade-off law",
+    "Fixed running costs follow equipment cost at the chosen 2.75% yearly rate",
+    "Both examples use the same per-kg water and replacement allowance; this is an assumption",
+    "Source price year is open; no current-money claim",
+    "No hourly supply, ageing, start-stop or detailed process model"
+  ]
+}

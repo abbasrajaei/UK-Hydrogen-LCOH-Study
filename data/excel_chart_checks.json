@@ -1,0 +1,26 @@
+{
+  "charts": [
+    {
+      "sheet": "Baseline",
+      "rows": 4,
+      "series": 2
+    },
+    {
+      "sheet": "Drivers",
+      "rows": 7,
+      "series": 1
+    },
+    {
+      "sheet": "Price and use",
+      "rows": 31,
+      "series": 3
+    },
+    {
+      "sheet": "Design comparison",
+      "rows": 31,
+      "series": 2
+    }
+  ],
+  "export_method": "Microsoft Excel Save as Picture UI",
+  "all_values_match_saved_results": true
+}

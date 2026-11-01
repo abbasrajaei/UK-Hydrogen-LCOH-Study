@@ -1,0 +1,61 @@
+{
+  "status": "Passed for the declared scenario-study scope",
+  "date": "2026-11-01",
+  "python": "3.12.14",
+  "raw_NESO_files_hash_checked": 4,
+  "study_counts": {
+    "neso_driver_screen.csv": 28,
+    "neso_joint_price_use.csv": 1178,
+    "neso_design_expert_three_factors.csv": 125,
+    "neso_efficiency_loss_compensation.csv": 54
+  },
+  "equipment_grid_yearly_DCF_checks": 11163,
+  "equipment_grid_maximum_DCF_gap_GBP_kg": 5.329070518200751e-15,
+  "native_Design_Expert_holdout_cases": 200,
+  "native_Design_Expert_maximum_error_GBP_kg": 1.0096445635099371e-07,
+  "Excel_rows_checked": 1303,
+  "report_local_links_checked": 19,
+  "figures": [
+    {
+      "file": "excel_baseline.png",
+      "width": 3875,
+      "height": 1815
+    },
+    {
+      "file": "excel_drivers.png",
+      "width": 3874,
+      "height": 1964
+    },
+    {
+      "file": "excel_price_use.png",
+      "width": 3874,
+      "height": 2756
+    },
+    {
+      "file": "excel_design_comparison.png",
+      "width": 3875,
+      "height": 2756
+    },
+    {
+      "file": "dx_contour_capex_energy_white.png",
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "file": "dx_surface_capex_energy.png",
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "file": "dx_interaction_energy_price.png",
+      "width": 1536,
+      "height": 864
+    }
+  ],
+  "visual_review": "Four chart images exported through Microsoft Excel and reviewed; three Design-Expert exports retained and reviewed",
+  "scope_limits": [
+    "NESO money year unconfirmed",
+    "No site or supplier feasibility claim",
+    "No laboratory significance or physical equipment validation claim"
+  ]
+}

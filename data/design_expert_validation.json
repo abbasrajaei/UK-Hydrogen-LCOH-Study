@@ -1,0 +1,36 @@
+{
+  "application": "DX13",
+  "version": "13.0.5.0",
+  "native_project": "NESO_three_factor_cost_model.dxpx",
+  "imported_cases": 125,
+  "holdout_cases": 200,
+  "imported_data_maximum_input_rounding_gap": 4.872504177910741e-07,
+  "imported_data_maximum_response_rounding_gap_GBP_kg": 4.972008378345549e-07,
+  "maximum_native_fit_holdout_error_GBP_kg": 1.0096445635099371e-07,
+  "import_precision": "Excel clipboard values displayed with six decimal places",
+  "fitted_coded_coefficients": {
+    "Intercept": 5.77872102734486,
+    "A": 0.934617633991207,
+    "B": 0.336268291213499,
+    "C": 3.7858130715,
+    "AB": 0.0555651618598445,
+    "BC": 0.2250751435
+  },
+  "factor_bounds": {
+    "A": [
+      670.0,
+      2008.485247
+    ],
+    "B": [
+      47.476506,
+      53.478509
+    ],
+    "C": [
+      0.0,
+      150.0
+    ]
+  },
+  "units_checked": true,
+  "native_project_reopened_successfully": true,
+  "inference": "Representation of a deterministic cost model; not experimental significance or real-plant validation"
+}
