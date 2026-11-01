@@ -2,7 +2,6 @@
 
 This UK-focused study explains how electricity price, yearly plant use, equipment cost and efficiency affect hydrogen production cost. It uses public NESO assumptions, a checked Python model, Excel charts and Design-Expert charts.
 
-**Status:** Complete for the stated scenario-study scope. This is not a site feasibility study. These are costs on the **NESO source-money scale**.
 
 ## Read the results
 
