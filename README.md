@@ -110,6 +110,3 @@ The UK government 2021 annex is a separate reference. Its 2020-pound model is no
 
 Supported by National Energy SO Open Data. NESO data retain the [NESO open licence](https://www.neso.energy/data-portal/neso-open-licence). Other source materials retain their original terms. This release does not assign a new licence to third-party data. A licence for the original project code has not yet been selected.
 
-The portfolio statement is: “A reproducible techno-economic study of electrolytic hydrogen using public NESO assumptions, discounted cost modelling, sensitivity analysis and Design-Expert response surfaces.” It should be used after reviewing and understanding the model and its limits.
-
-The calculations and report were developed with AI assistance. All report charts are native Excel or Design-Expert charts. The source data, code and native chart files are included.
